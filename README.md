@@ -15,6 +15,10 @@ where the parameters sought are $\beta$ and $\gamma$, $S(t)$ represents the susc
 
 The experimental data vector $\vec{d}(t)$ represents the number of infected people per day and will serve as the curve to be fitted.
 
+Before trying to define the least objective function, we need an extended system of ODEs that includes the sensitivity equations needed to compute the gradient and approximate hessian of the objective function. We have
+
+
+
 The non-linear least square objective function is defined as
 
 $$
